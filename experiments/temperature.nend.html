@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"        content="IE=edge">
+    <meta name="viewport"                     content="width=device-width">
+    <meta name="mobile-web-app-capable"       content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>nend example - temperature converter in HTML and JavaScript</title>
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+    pre.nend {
+      border: thin solid black
+    }
+    </style>
+  </head>
+
+  <body>
+<p>Below is a simple temperature conversion app.  The first block contains
+some HTML that displays some input fields.</p>
+
+<pre class=nend>
+&lt;p&gt;temperature C &lt;input id&#x3D;tempC type&#x3D;text&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;temperature F &lt;input id&#x3D;tempF type&#x3D;text&gt;&lt;&#x2F;p&gt;
+</pre>
+
+<p>temperature C <input id=tempC type=text></p>
+<p>temperature F <input id=tempF type=text></p>
+
+<p>The JavaScript code to deal with the values being input in the fields
+is below.</p>
+
+<pre class=nend>
+const tempC &#x3D; document.getElementById(&#39;tempC&#39;)
+const tempF &#x3D; document.getElementById(&#39;tempF&#39;)
+
+tempC.oninput &#x3D; function () {
+  tempF.value &#x3D; c2f(tempC.value)
+}
+
+tempF.oninput &#x3D; function () {
+  tempC.value &#x3D; f2c(tempF.value)
+}
+
+function c2f (c) {
+  return Math.round(c * 9&#x2F;5 + 32)
+}
+
+function f2c (f) {
+  return Math.round((f - 32) * 5&#x2F;9)
+}
+</pre>
+
+<script>
+const tempC = document.getElementById('tempC')
+const tempF = document.getElementById('tempF')
+
+tempC.oninput = function () {
+  tempF.value = c2f(tempC.value)
+}
+
+tempF.oninput = function () {
+  tempC.value = f2c(tempF.value)
+}
+
+function c2f (c) {
+  return Math.round(c * 9/5 + 32)
+}
+
+function f2c (f) {
+  return Math.round((f - 32) * 5/9)
+}
+</script>
+
+  </body>
+</html>

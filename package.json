@@ -30,6 +30,7 @@
     ]
   },
   "dependencies": {
+    "marked": "~0.3.17",
     "minimist": "~1.2.0"
   },
   "devDependencies": {
