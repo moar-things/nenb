@@ -1,4 +1,5 @@
-# @title nend example - temperature converter in HTML and JavaScript
+# @doc
+* title nend example - temperature converter in HTML and JavaScript
 
 Below is a simple temperature conversion app.  The first block contains
 some HTML that displays some input fields.

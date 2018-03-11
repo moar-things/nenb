@@ -1,0 +1,162 @@
+[
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 1,
+        "name": "doc",
+        "attrs": {
+            "title": "fragment test case"
+        }
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 4,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "This is a markdown fragment.",
+            "It has two lines."
+        ]
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 7,
+        "lang": "html",
+        "langExtra": "",
+        "lines": [
+            "This is a <b>html</b> fence fragment."
+        ]
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 11,
+        "lang": "html",
+        "langExtra": "oooh la la!",
+        "lines": [
+            "This is a <b>html</b> fence fragment with some langExtra values."
+        ]
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 15,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "This is a single-line markdown fragment."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 17,
+        "name": "",
+        "attrs": {}
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 19,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is no-op no-attr directive."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 21,
+        "name": "no-space",
+        "attrs": {}
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 23,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is no-attr directive named 'no-space'."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 25,
+        "name": "no-space-again",
+        "attrs": {}
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 27,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is no-attr directive named 'no-space-again'."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 29,
+        "name": "dir1",
+        "attrs": {
+            "empty-attr": ""
+        }
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 31,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is a directive with an empty attr 'empty-attr'."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 33,
+        "name": "dir2",
+        "attrs": {
+            "foo-bar": "foo bar"
+        }
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 35,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is a spacey directive with a 'foo-bar' attr, value 'foo bar'."
+        ]
+    },
+    {
+        "type": "Directive",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 37,
+        "name": "dir3",
+        "attrs": {
+            "foo-bar": "foo bar",
+            "bob": "",
+            "jim": "foo bar"
+        }
+    },
+    {
+        "type": "Block",
+        "fileName": "test/fixtures/sections-basic.nend.md",
+        "lineNumber": 41,
+        "lang": "markdown",
+        "langExtra": "",
+        "lines": [
+            "Above is a directive with lots of attrs."
+        ]
+    }
+]
