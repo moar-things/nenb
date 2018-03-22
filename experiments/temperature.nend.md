@@ -1,8 +1,7 @@
 # @doc
 * title nend example - temperature converter in HTML and JavaScript
 
-Below is a simple temperature conversion app.  The first block contains
-some HTML that displays some input fields.
+Below is a simple temperature conversion app.
 
 ```html
 <p>temperature C <input id=tempC type=text></p>
@@ -32,3 +31,4 @@ function f2c (f) {
   return Math.round((f - 32) * 5/9)
 }
 ```
+* show

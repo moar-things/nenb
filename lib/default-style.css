@@ -1,0 +1,31 @@
+/* make good choices */
+* {
+  box-sizing: border-box;
+}
+
+/* global / document styling */
+html, body {
+}
+
+body {
+  padding:            0 0.5em;
+  font-size:          150%;
+  font-family:        sans-serif;
+}
+
+input, textarea, select, button {
+  font-size:          100%;
+}
+
+/* styling for block source */
+pre.nend {
+  border: thin solid black;
+  border-radius: 0.25em;
+  padding: 0.1em 0.5em;
+  background-color: #cdf;
+}
+
+.nend-attribution {
+  font-style: italic;
+  font-size: 60%;
+}
