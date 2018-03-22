@@ -14,10 +14,8 @@ converted to the other scale.
 The JavaScript code to deal with the values being input in the fields
 is below.
 
-```comment
-================================================================================
-javascript to implement the temperature converter
-```
+# @comment =====================================================================
+# @comment javascript to implement the temperature converter
 
 ```js
 const tempC = document.getElementById('tempC')
@@ -41,10 +39,8 @@ function f2c (f) {
 ```
 * show
 
-```comment
-================================================================================
-setting the title with json and js blocks
-```
+# @comment =====================================================================
+# @comment setting the title with json and js blocks
 
 ```json
 {
@@ -57,10 +53,8 @@ setting the title with json and js blocks
 document.title = data.doc.title
 ```
 
-```comment
-================================================================================
-setting the title with toml and js blocks
-```
+# @comment =====================================================================
+# @comment setting the title with toml and js blocks
 
 ```toml
 title2 = "nend example - temperature converter (updated w/toml)"
@@ -71,10 +65,8 @@ title2 = "nend example - temperature converter (updated w/toml)"
 document.title = data.doc2.title2
 ```
 
-```comment
-================================================================================
-table that has no use
-```
+# @comment =====================================================================
+# @comment table that has no use
 
 # sample table
 

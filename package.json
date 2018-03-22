@@ -21,7 +21,7 @@
     "standard": "standard -v",
     "test": "standard -v && npm -s run utest",
     "utest": "node test | tap-spec",
-    "watch": "nodemon --exec 'npm -s test'"
+    "watch": "nodemon --exec 'npm -s run try; date'"
   },
   "standard": {
     "ignore": [
