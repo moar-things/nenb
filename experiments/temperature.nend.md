@@ -14,7 +14,8 @@ converted to the other scale.
 The JavaScript code to deal with the values being input in the fields
 is below.
 
-```comment =====================================================================
+```comment
+================================================================================
 javascript to implement the temperature converter
 ```
 
@@ -40,7 +41,8 @@ function f2c (f) {
 ```
 * show
 
-```comment =====================================================================
+```comment
+================================================================================
 setting the title with json and js blocks
 ```
 
@@ -55,7 +57,8 @@ setting the title with json and js blocks
 document.title = data.doc.title
 ```
 
-```comment =====================================================================
+```comment
+================================================================================
 setting the title with toml and js blocks
 ```
 
@@ -67,3 +70,21 @@ title2 = "nend example - temperature converter (updated w/toml)"
 ```js
 document.title = data.doc2.title2
 ```
+
+```comment
+================================================================================
+table that has no use
+```
+
+# sample table
+
+```markdown
+sample table
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+* show

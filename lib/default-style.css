@@ -4,17 +4,30 @@
 }
 
 /* global / document styling */
-html, body {
-}
-
 body {
-  padding:            0 0.5em;
-  font-size:          150%;
-  font-family:        sans-serif;
+  padding: 0 0.5em;
+  font-size: 150%;
+  font-family: sans-serif;
 }
 
 input, textarea, select, button {
-  font-size:          100%;
+  font-size: 100%;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.1em 0.5em;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
 }
 
 /* styling for block source */
