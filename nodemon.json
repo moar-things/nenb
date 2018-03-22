@@ -1,5 +1,5 @@
 {
-  "ext": "js,json,md",
+  "ext": "js,json,md,css",
   "ignore": [
     "tmp/"
   ]

@@ -14,8 +14,9 @@ input, textarea, select, button {
   font-size: 100%;
 }
 
+/* tables */
 table, th, td {
-   border: 1px solid black;
+   border: 1px solid #bbb;
 }
 
 table {
@@ -30,14 +31,15 @@ tbody tr:nth-child(odd) {
   background: #eee;
 }
 
-/* styling for block source */
+/* block source */
 pre.nend {
-  border: thin solid black;
-  border-radius: 0.25em;
+  border: thin solid #bbb;
+  border-radius: 0.5em;
   padding: 0.1em 0.5em;
-  background-color: #cdf;
+  background-color: #defc;
 }
 
+/* errors */
 pre.nend-error {
   border: thin solid black;
   border-radius: 0.25em;
@@ -45,6 +47,7 @@ pre.nend-error {
   background-color: #fdd;
 }
 
+/* attribution at end */
 .nend-attribution {
   font-style: italic;
   font-size: 60%;
