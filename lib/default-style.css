@@ -25,6 +25,13 @@ pre.nend {
   background-color: #cdf;
 }
 
+pre.nend-error {
+  border: thin solid black;
+  border-radius: 0.25em;
+  padding: 0.1em 0.5em;
+  background-color: #fdd;
+}
+
 .nend-attribution {
   font-style: italic;
   font-size: 60%;

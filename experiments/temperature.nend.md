@@ -32,3 +32,29 @@ function f2c (f) {
 }
 ```
 * show
+
+<!-- ====================================================================== -->
+<!-- setting the title with json and js blocks -->
+
+```json
+{
+  "title": "nend example - temperature converter (updated w/json)"
+}
+```
+* name doc
+
+```js
+document.title = data.doc.title
+```
+
+<!-- ====================================================================== -->
+<!-- setting the title with toml and js blocks -->
+
+```toml
+title2 = "nend example - temperature converter (updated w/toml)"
+```
+* name doc2
+
+```js
+document.title = data.doc2.title2
+```
