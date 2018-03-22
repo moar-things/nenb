@@ -3,6 +3,9 @@
 
 Below is a simple temperature conversion app.
 
+Enter a temperature in either the C or F fields, and the temperature will be
+converted to the other scale.
+
 ```html
 <p>temperature C <input id=tempC type=text></p>
 <p>temperature F <input id=tempF type=text></p>
@@ -10,6 +13,10 @@ Below is a simple temperature conversion app.
 
 The JavaScript code to deal with the values being input in the fields
 is below.
+
+```comment =====================================================================
+javascript to implement the temperature converter
+```
 
 ```js
 const tempC = document.getElementById('tempC')
@@ -33,8 +40,9 @@ function f2c (f) {
 ```
 * show
 
-<!-- ====================================================================== -->
-<!-- setting the title with json and js blocks -->
+```comment =====================================================================
+setting the title with json and js blocks
+```
 
 ```json
 {
@@ -47,8 +55,9 @@ function f2c (f) {
 document.title = data.doc.title
 ```
 
-<!-- ====================================================================== -->
-<!-- setting the title with toml and js blocks -->
+```comment =====================================================================
+setting the title with toml and js blocks
+```
 
 ```toml
 title2 = "nend example - temperature converter (updated w/toml)"
