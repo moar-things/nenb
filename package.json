@@ -17,6 +17,7 @@
     "url": "https://github.com/moar-things/nend/issues"
   },
   "scripts": {
+    "try": "node lib/nend experiments/temperature.nend.md",
     "standard": "standard -v",
     "test": "standard -v && npm -s run utest",
     "utest": "node test | tap-spec",
