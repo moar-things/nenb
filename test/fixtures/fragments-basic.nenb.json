@@ -1,7 +1,7 @@
 [
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 1,
         "directive": "doc",
         "attrs": {
@@ -10,7 +10,7 @@
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 4,
         "lines": [
             "This is a markdown fragment.",
@@ -19,7 +19,7 @@
     },
     {
         "type": "FenceFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 7,
         "lang": "html",
         "langExtra": "",
@@ -29,7 +29,7 @@
     },
     {
         "type": "FenceFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 11,
         "lang": "html",
         "langExtra": "oooh la la!",
@@ -39,7 +39,7 @@
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 15,
         "lines": [
             "This is a single-line markdown fragment."
@@ -47,14 +47,14 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 17,
         "directive": "",
         "attrs": {}
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 19,
         "lines": [
             "Above is no-op no-attr directive."
@@ -62,14 +62,14 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 21,
         "directive": "no-space",
         "attrs": {}
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 23,
         "lines": [
             "Above is no-attr directive named 'no-space'."
@@ -77,14 +77,14 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 25,
         "directive": "no-space-again",
         "attrs": {}
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 27,
         "lines": [
             "Above is no-attr directive named 'no-space-again'."
@@ -92,7 +92,7 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 29,
         "directive": "dir1",
         "attrs": {
@@ -101,7 +101,7 @@
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 31,
         "lines": [
             "Above is a directive with an empty attr 'empty-attr'."
@@ -109,7 +109,7 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 33,
         "directive": "dir2",
         "attrs": {
@@ -118,7 +118,7 @@
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 35,
         "lines": [
             "Above is a spacey directive with a 'foo-bar' attr, value 'foo bar'."
@@ -126,7 +126,7 @@
     },
     {
         "type": "DirectiveFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 37,
         "directive": "dir3",
         "attrs": {
@@ -137,7 +137,7 @@
     },
     {
         "type": "MarkdownFragment",
-        "fileName": "test/fixtures/fragments-basic.nend.md",
+        "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 41,
         "lines": [
             "Above is a directive with lots of attrs."

@@ -1,4 +1,4 @@
-nend - Non-Editable Note Book
+nenb - Non-Editable Note Book
 ================================================================================
 
 Programmable, editable online notebooks are awesome. Like
@@ -10,7 +10,7 @@ in the same place I'm viewing them in a web browser?
 
 Let's find out!
 
-`nend` is an experiment that allows you to author a "notebook" in plain ole
+`nenb` is an experiment that allows you to author a "notebook" in plain ole
 Markdown in a plain ole editor, and then have that "notebook" compiled to HTML.
 
 Here are some examples:
@@ -30,7 +30,7 @@ Here are some examples:
 usage from the command-line
 ================================================================================
 
-    npx github:moar-things/nend [options] file file ...
+    npx github:moar-things/nenb [options] file file ...
 
 options:
 
@@ -48,13 +48,13 @@ installation
 
 If you feel you must install it, you can run
 
-    npm install -g @moar-things/nend
+    npm install -g @moar-things/nenb
 
-which will provide a `nend` command on your path.  You may need to use `sudo`
+which will provide a `nenb` command on your path.  You may need to use `sudo`
 on that command, depending on your machine setup.
 
 You can also install it as a `devDependency` (or `dependency`) in your own
-package, and then use `npm run nend ...` as you wish.
+package, and then use `npm run nenb ...` as you wish.
 
 
 license

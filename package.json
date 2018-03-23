@@ -1,23 +1,23 @@
 {
-  "name": "@moar-things/nend",
+  "name": "@nenb/nenb",
   "version": "0.0.1",
   "description": "Non-Editable Note Book",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
-  "homepage": "https://github.com/moar-things/nend",
-  "main": "lib/nend.js",
+  "homepage": "https://github.com/nenb/nenb",
+  "main": "lib/nenb.js",
   "bin": {
-    "nend": "./lib/cli.js"
+    "nenb": "./lib/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/moar-things/nend.git"
+    "url": "https://github.com/nenb/nenb.git"
   },
   "bugs": {
-    "url": "https://github.com/moar-things/nend/issues"
+    "url": "https://github.com/nenb/nenb/issues"
   },
   "scripts": {
-    "try": "node lib/nend experiments/temperature.nend.md",
+    "try": "node lib/nenb experiments/temperature.nenb.md",
     "standard": "standard -v",
     "test": "standard -v && npm -s run utest",
     "utest": "node test | tap-spec",

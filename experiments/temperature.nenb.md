@@ -1,5 +1,5 @@
 # @doc
-* title nend example - temperature converter in HTML and JavaScript
+* title nenb example - temperature converter in HTML and JavaScript
 
 Below is a simple temperature conversion app.
 
@@ -44,7 +44,7 @@ function f2c (f) {
 
 ```json
 {
-  "title": "nend example - temperature converter (updated w/json)"
+  "title": "nenb example - temperature converter (updated w/json)"
 }
 ```
 * name doc
@@ -57,7 +57,7 @@ document.title = data.doc.title
 # @comment setting the title with toml and js blocks
 
 ```toml
-title2 = "nend example - temperature converter (updated w/toml)"
+title2 = "nenb example - temperature converter (updated w/toml)"
 ```
 * name doc2
 

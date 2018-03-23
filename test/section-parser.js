@@ -8,7 +8,7 @@ const testRunner = require('./lib/test-runner')
 
 const runTest = testRunner.create(__filename)
 
-test('sections-basic.nend.md')
+test('sections-basic.nenb.md')
 
 function test (name) {
   runTest(async function testPackageName (t) {

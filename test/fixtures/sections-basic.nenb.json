@@ -1,7 +1,7 @@
 [
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 1,
         "name": "doc",
         "attrs": {
@@ -10,7 +10,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 4,
         "lang": "markdown",
         "langExtra": "",
@@ -21,7 +21,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 7,
         "lang": "html",
         "langExtra": "",
@@ -31,7 +31,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 11,
         "lang": "html",
         "langExtra": "oooh la la!",
@@ -41,7 +41,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 15,
         "lang": "markdown",
         "langExtra": "",
@@ -51,14 +51,14 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 17,
         "name": "",
         "attrs": {}
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 19,
         "lang": "markdown",
         "langExtra": "",
@@ -68,14 +68,14 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 21,
         "name": "no-space",
         "attrs": {}
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 23,
         "lang": "markdown",
         "langExtra": "",
@@ -85,14 +85,14 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 25,
         "name": "no-space-again",
         "attrs": {}
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 27,
         "lang": "markdown",
         "langExtra": "",
@@ -102,7 +102,7 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 29,
         "name": "dir1",
         "attrs": {
@@ -111,7 +111,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 31,
         "lang": "markdown",
         "langExtra": "",
@@ -121,7 +121,7 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 33,
         "name": "dir2",
         "attrs": {
@@ -130,7 +130,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 35,
         "lang": "markdown",
         "langExtra": "",
@@ -140,7 +140,7 @@
     },
     {
         "type": "Directive",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 37,
         "name": "dir3",
         "attrs": {
@@ -151,7 +151,7 @@
     },
     {
         "type": "Block",
-        "fileName": "test/fixtures/sections-basic.nend.md",
+        "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 41,
         "lang": "markdown",
         "langExtra": "",
