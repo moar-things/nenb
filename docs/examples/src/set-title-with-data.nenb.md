@@ -21,7 +21,7 @@ is set on the block.
 
 The full source for the block is show below.
 
-<pre class=nenb>
+<pre>
     ```json
     {
       "title": "nenb example - set-title-with-data (updated w/json)"
@@ -35,6 +35,7 @@ The block below uses the data stored by the `json` block above to set the
 window title.
 
 ```js
+// set the document title from property set previously
 document.title = data.doc.title
 ```
 * show
@@ -57,6 +58,7 @@ Again, a JavaScript block is used to set the title from a data block previously
 set in the document.
 
 ```js
+// set the document title from property set previously
 document.title = data.doc2.title2
 ```
 * show
