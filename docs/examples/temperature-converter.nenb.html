@@ -7,7 +7,7 @@
 <meta name="mobile-web-app-capable"       content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>nenb example - temperature converter in HTML and JavaScript</title>
-<link rel="shortcut icon" href="..&#x2F;images&#x2F;nenb-icon.png" />
+<link rel="shortcut icon" href="../images/nenb-icon.png" />
 
 <style>
 /* make good choices */
@@ -76,6 +76,86 @@ pre.nenb-error {
   font-style: italic;
   font-size: 60%;
 }
+
+/* ========================================================================== */
+
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	zzz-background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
 </style>
 
 <script>
@@ -107,24 +187,24 @@ is below.</p>
 <!-- block source -->
 <div class=nenb-block-source>
 <pre>
-const tempC &#x3D; document.getElementById(&#39;tempC&#39;)
-const tempF &#x3D; document.getElementById(&#39;tempF&#39;)
+<span class="token keyword">const</span> tempC <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'tempC'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> tempF <span class="token operator">=</span> document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">'tempF'</span><span class="token punctuation">)</span>
 
-tempC.oninput &#x3D; function () {
-  tempF.value &#x3D; c2f(tempC.value)
-}
+tempC<span class="token punctuation">.</span><span class="token function-variable function">oninput</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  tempF<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token function">c2f</span><span class="token punctuation">(</span>tempC<span class="token punctuation">.</span>value<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
 
-tempF.oninput &#x3D; function () {
-  tempC.value &#x3D; f2c(tempF.value)
-}
+tempF<span class="token punctuation">.</span><span class="token function-variable function">oninput</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  tempC<span class="token punctuation">.</span>value <span class="token operator">=</span> <span class="token function">f2c</span><span class="token punctuation">(</span>tempF<span class="token punctuation">.</span>value<span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
 
-function c2f (c) {
-  return Math.round(c * 9&#x2F;5 + 32)
-}
+<span class="token keyword">function</span> <span class="token function">c2f</span> <span class="token punctuation">(</span>c<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> Math<span class="token punctuation">.</span><span class="token function">round</span><span class="token punctuation">(</span>c <span class="token operator">*</span> <span class="token number">9</span><span class="token operator">/</span><span class="token number">5</span> <span class="token operator">+</span> <span class="token number">32</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
 
-function f2c (f) {
-  return Math.round((f - 32) * 5&#x2F;9)
-}
+<span class="token keyword">function</span> <span class="token function">f2c</span> <span class="token punctuation">(</span>f<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">return</span> Math<span class="token punctuation">.</span><span class="token function">round</span><span class="token punctuation">(</span><span class="token punctuation">(</span>f <span class="token operator">-</span> <span class="token number">32</span><span class="token punctuation">)</span> <span class="token operator">*</span> <span class="token number">5</span><span class="token operator">/</span><span class="token number">9</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
 </pre>
 
 <div class=nenb-block-source-attrs>
@@ -157,7 +237,7 @@ function f2c (f) {
 </script>
 
 <div class="nenb-attribution"><p>
-<hr> generated by <a href="https:&#x2F;&#x2F;github.com&#x2F;nenb&#x2F;nenb">nenb 0.0.1</a> on Sat Mar 24 2018 14:37:54 GMT-0400 (EDT)
+<hr> generated by <a href="https://github.com/nenb/nenb">nenb 0.0.1</a> on Sat Mar 24 2018 15:33:07 GMT-0400 (EDT)
 </p></div>
 
 </body>

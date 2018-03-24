@@ -19,9 +19,7 @@ is set on the block.
 * name doc
 * show
 
-The full source for the block is show below; when using the `show` attribute
-only the lines within the fence are shown: the beginning and end fence lines
-are not shown, nor the attributes associated with the block.
+The full source for the block is show below.
 
 <pre class=nenb>
     ```json
