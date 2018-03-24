@@ -17,11 +17,18 @@
     "url": "https://github.com/nenb/nenb/issues"
   },
   "scripts": {
-    "try": "node lib/nenb experiments/temperature.nenb.md",
+    "build": "make build",
     "standard": "standard -v",
     "test": "standard -v && npm -s run utest",
     "utest": "node test | tap-spec",
-    "watch": "nodemon --exec 'npm -s run try; date'"
+    "watch": "nodemon --exec 'npm -s run test && npm -s run build && date'"
+  },
+  "nodemonConfig": {
+    "ext": "js,json,md,css",
+    "ignore": [
+      "tmp/",
+      "test/fixtures/*.actual.json"
+    ]
   },
   "standard": {
     "ignore": [

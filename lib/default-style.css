@@ -32,11 +32,23 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-pre.nenb {
+div.nenb-block-source {
+  padding: 0 0.5em;
+  border: thin solid #bbb;
+  border-radius: 0.5em;
+  background-color: #defc;
+}
+
+div.nenb-block-source-attrs {
+  font-size: 60%;
+}
+
+div.nenb-block-source pre {
   border: thin solid #bbb;
   border-radius: 0.5em;
   padding: 0.1em 0.5em;
-  background-color: #defc;
+  background-color: #7f01;
+  margin: 0.5em 0;
 }
 
 /* errors */

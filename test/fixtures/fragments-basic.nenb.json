@@ -21,21 +21,23 @@
         "type": "FenceFragment",
         "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 7,
-        "lang": "html",
-        "langExtra": "",
         "lines": [
             "This is a <b>html</b> fence fragment."
-        ]
+        ],
+        "attrs": {
+            "lang": "html"
+        }
     },
     {
         "type": "FenceFragment",
         "fileName": "test/fixtures/fragments-basic.nenb.md",
         "lineNumber": 11,
-        "lang": "html",
-        "langExtra": "oooh la la!",
         "lines": [
             "This is a <b>html</b> fence fragment with some langExtra values."
-        ]
+        ],
+        "attrs": {
+            "lang": "html"
+        }
     },
     {
         "type": "MarkdownFragment",

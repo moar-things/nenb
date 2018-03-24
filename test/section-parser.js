@@ -11,7 +11,9 @@ const runTest = testRunner.create(__filename)
 test('sections-basic.nenb.md')
 
 function test (name) {
-  runTest(async function testPackageName (t) {
+  runTest(async function testSections (t) {
+    t.pass(`testing ${name}`)
+
     const fileNameMD = path.join(__dirname, 'fixtures', name)
     const fileNameJSON = fileNameMD.replace(/md$/, 'json')
 
@@ -23,7 +25,12 @@ function test (name) {
     const actualJSON = JSON.stringify(actualSections)
     const expectedJSON = JSON.stringify(expectedSections)
 
-    t.equal(actualJSON, expectedJSON, `testing fragments for ${shortFileName}`)
+    if (actualJSON !== expectedJSON) {
+      const actualJSONfile = fileNameMD.replace(/md$/, 'actual.json')
+      fs.writeFileSync(actualJSONfile, JSON.stringify(actualSections, null, 4))
+      t.fail(`actual json does not match expected json; actual written to ${actualJSONfile}`)
+    }
+
     t.end()
   })
 }

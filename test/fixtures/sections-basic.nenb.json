@@ -10,10 +10,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 4,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "This is a markdown fragment.",
             "It has two lines."
@@ -21,30 +22,33 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "html"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 7,
-        "lang": "html",
-        "langExtra": "",
         "lines": [
             "This is a <b>html</b> fence fragment."
         ]
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "html"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 11,
-        "lang": "html",
-        "langExtra": "oooh la la!",
         "lines": [
             "This is a <b>html</b> fence fragment with some langExtra values."
         ]
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 15,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "This is a single-line markdown fragment."
         ]
@@ -58,10 +62,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 19,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is no-op no-attr directive."
         ]
@@ -75,10 +80,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 23,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is no-attr directive named 'no-space'."
         ]
@@ -92,10 +98,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 27,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is no-attr directive named 'no-space-again'."
         ]
@@ -111,10 +118,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 31,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is a directive with an empty attr 'empty-attr'."
         ]
@@ -130,10 +138,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 35,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is a spacey directive with a 'foo-bar' attr, value 'foo bar'."
         ]
@@ -151,10 +160,11 @@
     },
     {
         "type": "Block",
+        "attrs": {
+            "lang": "markdown"
+        },
         "fileName": "test/fixtures/sections-basic.nenb.md",
         "lineNumber": 41,
-        "lang": "markdown",
-        "langExtra": "",
         "lines": [
             "Above is a directive with lots of attrs."
         ]
