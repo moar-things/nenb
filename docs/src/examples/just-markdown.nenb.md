@@ -1,4 +1,4 @@
-This file just contains run of the mill Markdown.  The page's title is the
+This file just contains typical Markdown.  The page's title is the
 base name of the generated file.
 
 Below is a table, which looks nice because of some default css styling, and

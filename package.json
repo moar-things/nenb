@@ -4,7 +4,7 @@
   "description": "Non-Editable Note Book",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
-  "homepage": "https://github.com/nenb/nenb",
+  "homepage": "https://nenb.github.io/nenb/",
   "main": "lib/nenb.js",
   "bin": {
     "nenb": "./lib/cli.js"

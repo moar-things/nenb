@@ -4,4 +4,4 @@ help:
 	@echo "  build   - build assets before publishing"
 
 build:
-	@docs/examples/build.sh
+	@docs/src/build.sh

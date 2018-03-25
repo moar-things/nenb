@@ -1,6 +1,3 @@
-nenb - Non-Editable Note Book
-================================================================================
-
 Programmable, editable online notebooks are awesome. Like
 [Mathematica][], [TiddlyWiki][], [Jupyter][], [Runkit][], and
 [Observable].  I do find the "online editing" experience to be less than
@@ -13,11 +10,9 @@ Let's find out!
 `nenb` is an experiment that allows you to author a "notebook" in plain ole
 Markdown in a plain ole editor, and then have that "notebook" compiled to HTML.
 
-Here are some examples:
+For more information visit the [home page][].
 
-* foo
-* bar
-
+[home page]: https://nenb.github.io/nenb/
 [Mathematica]: https://www.wolfram.com/mathematica/
 [TiddlyWiki]: https://tiddlywiki.com/
 [Jupyter]: http://jupyter.org/
@@ -25,48 +20,3 @@ Here are some examples:
 [Observable]: https://observablehq.com
 [Atom]: https://atom.io/
 [Sublime Text]: https://www.sublimetext.com/
-
-
-usage from the command-line
-================================================================================
-
-    npx github:moar-things/nenb [options] file file ...
-
-options:
-
-* `-h --help`
-
-  print some help
-
-* `-v --version`
-
-  print the version number
-
-
-installation
-================================================================================
-
-If you feel you must install it, you can run
-
-    npm install -g @moar-things/nenb
-
-which will provide a `nenb` command on your path.  You may need to use `sudo`
-on that command, depending on your machine setup.
-
-You can also install it as a `devDependency` (or `dependency`) in your own
-package, and then use `npm run nenb ...` as you wish.
-
-
-license
-================================================================================
-
-This package is licensed under the MIT license.  See the
-[LICENSE.md](LICENSE.md) file for more information.
-
-
-contributing
-================================================================================
-
-Awesome!  We're happy that you want to contribute.
-
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.

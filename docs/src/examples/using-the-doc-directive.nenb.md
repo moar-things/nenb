@@ -1,4 +1,4 @@
-This file mostly contains run of the mill markdown, but does use a **`doc`**
+This file mostly contains typical markdown, but does use a **`doc`**
 directive to set the web page title, icon, and add a `<h1>` to the
 beginning of the document, with the specified title.
 
@@ -13,7 +13,7 @@ The **`doc`** directive is show below:
 Directives are markdown headers - one `#` character at the start of the line
 followed by a whitespace character.
 The next token on the line starts with `@` which indicates this is a directive
-and not a run of the mill markdown header.  The name of this directive is
+and not a typical markdown header.  The name of this directive is
 **`doc`**.
 
 The **`doc`** directive supports a number of attributes, show above as list items

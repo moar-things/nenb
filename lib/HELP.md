@@ -1,13 +1,14 @@
-%%program%% %%version%% - %%description%%
+nenb %%version%% - %%description%%
 
 usage:
 
-    npx %%program%% [options] aFile.md bFile.md ...
+    npx nenb/nenb [options] aFile.md bFile.md ...
 
 options:
 
     -h --help         print this help
     -v --version      print the program version
+    -o --output       output directory (default: directory of input file)
 
 Debug logging is enabled by setting the environment variable `DEBUG` to
 any value.

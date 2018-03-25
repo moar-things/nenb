@@ -1,29 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/nenb-icon.png" />
-    <link href="index.css" rel="stylesheet">
-    <link href="lint.css" rel="stylesheet">
-    <title>nenb - Non-Editable Note Book</title>
-  </head>
-  <body>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"        content="IE=edge">
+<meta name="viewport"                     content="width=device-width">
+<meta name="mobile-web-app-capable"       content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>nenb - Non-Editable Note Book</title>
+<link rel="shortcut icon" href="images/nenb-icon.png" />
 
-    <img class="float-right" width="64px" src="images/nenb-icon.png" alt="nenb icon">
-    <h1><tt>nenb</tt> - Non-Editable Note Book</h1>
+<script>
+const data = {}
+</script>
 
-    <p>blah blah</p>
+</head>
+<body>
 
-    <h2>examples</h2>
+<!-- auto-generated title -->
+<h1>nenb - Non-Editable Note Book</h1>
 
-    <ul>
-      <li><a href="examples/just-markdown.nenb.html">only markdown</a></li>
-      <li><a href="examples/using-the-doc-directive.nenb.html">using the doc directive</a></li>
-      <li><a href="examples/set-title-with-data.nenb.html">sets the document title with JavaScript and a data block</a></li>
-      <li><a href="examples/temperature-converter.nenb.html">a temperature converter</a></li>
-    </ul>
+<!-- block rendered -->
+<p><img width=64 src="images/nenb-icon.png" style="position:absolute; top:10px; right:10px;"></p>
+<p>Programmable, editable online notebooks are awesome. Like
+<a href="https://www.wolfram.com/mathematica/">Mathematica</a>, <a href="https://tiddlywiki.com/">TiddlyWiki</a>, <a href="http://jupyter.org/">Jupyter</a>, <a href="https://runkit.com/home">Runkit</a>, and
+<a href="https://observablehq.com">Observable</a>.  I do find the &quot;online editing&quot; experience to be less than
+optimal though - I&#39;m happier in a high-function text editor like <a href="https://atom.io/">Atom</a>
+or <a href="https://www.sublimetext.com/">Sublime Text</a>.  And do I really need to be able to edit my notebooks
+in the same place I&#39;m viewing them in a web browser?</p>
+<p>Let&#39;s find out!</p>
+<p><strong>nenb</strong> is an experiment that allows you to author a &quot;notebook&quot; in plain ole
+Markdown in a plain ole editor, and then have that &quot;notebook&quot; compiled to HTML.</p>
+<h2 id="what-is-this-">what is this?</h2>
+<p><strong>nenb</strong> notebooks are authored in <a href="https://daringfireball.net/projects/markdown/syntax">Markdown</a> files, but process two Markdown
+structures differently.</p>
+<p><a href="https://daringfireball.net/projects/markdown/syntax#header">Atx headings at level one</a> whose first character of the
+heading is <code>@</code> are <strong>directives</strong>.</p>
+<p><a href="https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks">Markdown fenced code blocks</a> are <strong>blocks</strong>, and by default not shown in the
+rendered HTML, but interpreted instead.</p>
+<p>Both <strong>directives</strong> and <strong>blocks</strong> may be immediately followed by (ie, no blank
+lines) lines starting with with <code>*</code> (list items), which are the <strong>attributes</strong>
+of the the <strong>directive</strong> or <strong>block</strong>.</p>
+<p>Let&#39;s look at some examples.</p>
+<h2 id="examples">examples</h2>
+<ul>
+<li><a href="examples/just-markdown.html">only markdown</a></li>
+<li><a href="examples/using-the-doc-directive.html">using the doc directive</a></li>
+<li><a href="examples/set-title-with-data.html">sets the document title with JavaScript and a data block</a></li>
+<li><a href="examples/temperature-converter.html">a temperature converter</a></li>
+</ul>
+<h2 id="reference">reference</h2>
+<p><strong>nend</strong> provides some default <strong>directives</strong> and <strong>block</strong> renderers</p>
+<ul>
+<li><p><a href="directives.html">directives</a></p>
+</li>
+<li><p><a href="blocks.html">blocks</a></p>
+</li>
+</ul>
+<h2 id="extending-nend">extending nend</h2>
+<p>TBD</p>
+<h2 id="usage-from-the-command-line">usage from the command-line</h2>
+<pre><code>npx nenb/nenb [options] file file ...
+</code></pre><p>options:</p>
+<pre><code>-h --help      print some help
+-v --version   print the version number
+-o --output    directory to write output (default: same as input file)
+</code></pre><h2 id="installation">installation</h2>
+<p>If you feel you must install it globally, you can run</p>
+<pre><code>npm install -g nenb/nenb
+</code></pre><p>which will provide a <code>nenb</code> command on your path.  You may need to use <code>sudo</code>
+on that command, depending on your machine setup.</p>
+<p>You can also install it as a <code>devDependency</code> (or <code>dependency</code>) in your own
+package, and then perhaps add an npm script to run it as you wish.</p>
+<h2 id="license">license</h2>
+<p>This package is licensed under the MIT license.  See the
+<a href="LICENSE.md">LICENSE.md</a> file for more information.</p>
+<h2 id="contributing">contributing</h2>
+<p>Awesome!  We&#39;re happy that you want to contribute.</p>
+<p>Please read the <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> file for more information.</p>
 
-  </body>
+<div class="nenb-attribution"><p>
+<hr> generated by <a href="https://nenb.github.io/nenb/">nenb 0.0.1</a>
+</p></div>
+
+<style>
+/* make good choices */
+* {
+  box-sizing: border-box;
+}
+
+/* global / document styling */
+body {
+  padding: 0 0.5em;
+  font-size: 150%;
+  font-family: sans-serif;
+}
+
+input, textarea, select, button {
+  font-size: 100%;
+}
+
+/* tables */
+table, th, td {
+   border: 1px solid #bbb;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.1em 0.5em;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+/* block source */
+div.nenb-block-source {
+  padding: 0 0.5em;
+  border: thin solid #bbb;
+  border-radius: 0.5em;
+  background-color: #defc;
+}
+
+div.nenb-block-source-attrs {
+  font-size: 60%;
+}
+
+div.nenb-block-source pre {
+  border: thin solid #bbb;
+  border-radius: 0.5em;
+  padding: 0.1em 0.5em;
+  background-color: #7f01;
+  margin: 0.5em 0;
+}
+
+/* errors */
+pre.nenb-error {
+  border: thin solid black;
+  border-radius: 0.25em;
+  padding: 0.1em 0.5em;
+  background-color: #fdd;
+}
+
+/* attribution at end */
+.nenb-attribution {
+  font-style: italic;
+  font-size: 60%;
+}
+
+/* ========================================================================== */
+
+/**
+ * prism.js default theme for JavaScript, CSS and HTML
+ * Based on dabblet (http://dabblet.com)
+ * @author Lea Verou
+ */
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray;
+}
+
+.token.punctuation {
+	color: #999;
+}
+
+.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #905;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #690;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #a67f59;
+	zzz-background: hsla(0, 0%, 100%, .5);
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #07a;
+}
+
+.token.function,
+.token.class-name {
+	color: #DD4A68;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e90;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+</style>
+
+</body>
 </html>
