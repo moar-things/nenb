@@ -77,14 +77,14 @@ package, and then perhaps add an npm script to run it as you wish.
 
 ## license
 
-This package is licensed under the MIT license.  See the
-[LICENSE.md](LICENSE.md) file for more information.
+This package is licensed under the MIT license.  See the [LICENSE.md][] file for
+more information.
 
 ## contributing
 
 Awesome!  We're happy that you want to contribute.
 
-Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
+Please read the [CONTRIBUTING.md][] file for more information.
 
 [Mathematica]: https://www.wolfram.com/mathematica/
 [TiddlyWiki]: https://tiddlywiki.com/
@@ -96,3 +96,5 @@ Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for more information.
 [Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Markdown headings]: https://daringfireball.net/projects/markdown/syntax#header
 [Markdown fenced code blocks]: https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks
+[LICENSE.md]: https://github.com/nenb/nenb/blob/master/LICENSE.md
+[CONTRIBUTING.md]: https://github.com/nenb/nenb/blob/master/CONTRIBUTING.md
