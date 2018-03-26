@@ -16,6 +16,7 @@ const data = {}
 <body>
 
 <!-- block rendered -->
+<p><a href="../src/examples/just-markdown.nenb.md">source file</a></p>
 <p>This file just contains typical Markdown.  The page&#39;s title is the
 base name of the generated file.</p>
 <p>Below is a table, which looks nice because of some default css styling, and
@@ -91,22 +92,11 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-div.nenb-block-source {
-  padding: 0 0.5em;
-  border: thin solid #bbb;
-  border-radius: 0.5em;
-  background-color: #defc;
-}
-
-div.nenb-block-source-attrs {
-  font-size: 60%;
-}
-
-div.nenb-block-source pre {
+pre.nenb-block-source {
   border: thin solid #bbb;
   border-radius: 0.5em;
   padding: 0.1em 0.5em;
-  background-color: #7f01;
+  background-color: #40f1;
   margin: 0.5em 0;
 }
 

@@ -3,6 +3,8 @@
 * bodyTitle
 * icon ../images/nenb-icon.png
 
+[source file](../src/examples/temperature-converter.nenb.md)
+
 This page provides is a simple temperature conversion app.
 
 Enter a value in either the "temperature C" or "temperature F" input field, and

@@ -1,3 +1,5 @@
+[source file](../src/examples/using-the-doc-directive.nenb.md)
+
 This file mostly contains typical markdown, but does use a **`doc`**
 directive to set the web page title, icon, and add a `<h1>` to the
 beginning of the document, with the specified title.

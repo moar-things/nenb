@@ -1,3 +1,5 @@
+[source file](../src/examples/just-markdown.nenb.md)
+
 This file just contains typical Markdown.  The page's title is the
 base name of the generated file.
 

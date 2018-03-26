@@ -20,21 +20,20 @@ const data = {}
 <h1>nenb example - using the doc directive</h1>
 
 <!-- block rendered -->
+<p><a href="../src/examples/using-the-doc-directive.nenb.md">source file</a></p>
 <p>This file mostly contains typical markdown, but does use a <strong><code>doc</code></strong>
 directive to set the web page title, icon, and add a <code>&lt;h1&gt;</code> to the
 beginning of the document, with the specified title.</p>
 <p>The <strong><code>doc</code></strong> directive is show below:</p>
 
 <!-- directive source -->
-<div class=nenb-block-source>
-<pre>
+<pre class=nenb-block-source>
 <span class="token title important"><span class="token punctuation">#</span> @doc</span>
 <span class="token list punctuation">*</span> title nenb example - using the doc directive
 <span class="token list punctuation">*</span> icon ../images/nenb-icon.png
 <span class="token list punctuation">*</span> bodyTitle 
 <span class="token list punctuation">*</span> showDirective 
 </pre>
-</div>
 
 <!-- block rendered -->
 <p>Directives are markdown headers - one <code>#</code> character at the start of the line
@@ -109,22 +108,11 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-div.nenb-block-source {
-  padding: 0 0.5em;
-  border: thin solid #bbb;
-  border-radius: 0.5em;
-  background-color: #defc;
-}
-
-div.nenb-block-source-attrs {
-  font-size: 60%;
-}
-
-div.nenb-block-source pre {
+pre.nenb-block-source {
   border: thin solid #bbb;
   border-radius: 0.5em;
   padding: 0.1em 0.5em;
-  background-color: #7f01;
+  background-color: #40f1;
   margin: 0.5em 0;
 }
 

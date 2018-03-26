@@ -19,6 +19,9 @@ const data = {}
 <!-- auto-generated title -->
 <h1>nenb example - setting the document title with data</h1>
 
+<!-- block rendered -->
+<p><a href="../src/examples/set-title-with-data.nenb.md">source file</a></p>
+
 <!-- ===================================================================== -->
 
 <!-- setting the title with json and js blocks -->
@@ -30,21 +33,11 @@ named <code>doc</code>.  The block&#39;s source is displayed since the block att
 is set on the block.</p>
 
 <!-- block source -->
-<div class=nenb-block-source>
-<pre>
+<pre class=nenb-block-source>
 <span class="token punctuation">{</span>
   <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"nenb example - set-title-with-data (updated w/json)"</span>
 <span class="token punctuation">}</span>
 </pre>
-
-<div class=nenb-block-source-attrs>
-<ul>
-<li><b>lang</b>: json</li>
-<li><b>name</b>: doc</li>
-<li><b>show</b></li>
-</ul>
-</div>
-</div>
 
 <!-- block rendered -->
 <script>
@@ -69,19 +62,10 @@ data["doc"] = {
 window title.</p>
 
 <!-- block source -->
-<div class=nenb-block-source>
-<pre>
+<pre class=nenb-block-source>
 <span class="token comment">// set the document title from property set previously</span>
 document<span class="token punctuation">.</span>title <span class="token operator">=</span> data<span class="token punctuation">.</span>doc<span class="token punctuation">.</span>title
 </pre>
-
-<div class=nenb-block-source-attrs>
-<ul>
-<li><b>lang</b>: js</li>
-<li><b>show</b></li>
-</ul>
-</div>
-</div>
 
 <!-- block rendered -->
 <script>
@@ -98,19 +82,9 @@ document.title = data.doc.title
 format.</p>
 
 <!-- block source -->
-<div class=nenb-block-source>
-<pre>
+<pre class=nenb-block-source>
 title2 = &quot;nenb example - set-title-with-data (updated w/toml)&quot;
 </pre>
-
-<div class=nenb-block-source-attrs>
-<ul>
-<li><b>lang</b>: toml</li>
-<li><b>name</b>: doc2</li>
-<li><b>show</b></li>
-</ul>
-</div>
-</div>
 
 <!-- block rendered -->
 <script>
@@ -124,19 +98,10 @@ data["doc2"] = {
 set in the document.</p>
 
 <!-- block source -->
-<div class=nenb-block-source>
-<pre>
+<pre class=nenb-block-source>
 <span class="token comment">// set the document title from property set previously</span>
 document<span class="token punctuation">.</span>title <span class="token operator">=</span> data<span class="token punctuation">.</span>doc2<span class="token punctuation">.</span>title2
 </pre>
-
-<div class=nenb-block-source-attrs>
-<ul>
-<li><b>lang</b>: js</li>
-<li><b>show</b></li>
-</ul>
-</div>
-</div>
 
 <!-- block rendered -->
 <script>
@@ -188,22 +153,11 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-div.nenb-block-source {
-  padding: 0 0.5em;
-  border: thin solid #bbb;
-  border-radius: 0.5em;
-  background-color: #defc;
-}
-
-div.nenb-block-source-attrs {
-  font-size: 60%;
-}
-
-div.nenb-block-source pre {
+pre.nenb-block-source {
   border: thin solid #bbb;
   border-radius: 0.5em;
   padding: 0.1em 0.5em;
-  background-color: #7f01;
+  background-color: #40f1;
   margin: 0.5em 0;
 }
 

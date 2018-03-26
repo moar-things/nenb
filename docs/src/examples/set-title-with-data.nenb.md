@@ -3,6 +3,8 @@
 * bodyTitle
 * icon ../images/nenb-icon.png
 
+[source file](../src/examples/set-title-with-data.nenb.md)
+
 # @comment =====================================================================
 # @comment setting the title with json and js blocks
 
