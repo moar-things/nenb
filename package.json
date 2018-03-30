@@ -21,7 +21,7 @@
     "standard": "standard -v",
     "test": "standard -v && npm -s run utest",
     "utest": "node test | tap-spec",
-    "watch": "nodemon --exec 'npm -s run test && npm -s run build && date'"
+    "watch": "nodemon --exec 'npm -s run build && npm -s run test && date'"
   },
   "nodemonConfig": {
     "ext": "js,json,md,css",

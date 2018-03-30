@@ -1,9 +1,20 @@
 # @doc
 * title nenb - Non-Editable Note Book
-* bodyTitle
 * icon images/nenb-icon.png
 
-<img width=64 src="images/nenb-icon.png" style="position:absolute; top:10px; right:10px;">
+<div style="float:right; margin-left:1em;">
+  <a href="https://github.com/nenb">
+    <img width=32 src="images/nenb-icon.png">
+  </a>
+
+  <p></p>
+
+  <a href="https://github.com/nenb">
+    <img width=32 src="images/GitHub-Mark-120px-plus.png">
+  </a>
+</div>
+
+<h1>nenb - Non-Editable Note Book</h1>
 
 Programmable, editable online notebooks are awesome. Like
 [Mathematica][], [TiddlyWiki][], [Jupyter][], [Runkit][], and

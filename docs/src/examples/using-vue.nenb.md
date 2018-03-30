@@ -3,7 +3,7 @@
 * bodyTitle
 * icon ../images/nenb-icon.png
 
-[source file](../src/examples/using-view.nenb.md)
+[source file](../src/examples/using-vue.nenb.md)
 
 Below is a data block, in toml format.  It will be used as the data used to
 create the Vue object.  The `name` attribute is set to `myVueData`.
