@@ -31,8 +31,8 @@ beginning of the document, with the specified title.</p>
 <span class="token title important"><span class="token punctuation">#</span> @doc</span>
 <span class="token list punctuation">*</span> title nenb example - using the doc directive
 <span class="token list punctuation">*</span> icon ../images/nenb-icon.png
-<span class="token list punctuation">*</span> bodyTitle 
-<span class="token list punctuation">*</span> showDirective 
+<span class="token list punctuation">*</span> bodyTitle true
+<span class="token list punctuation">*</span> showDirective true
 </pre>
 
 <!-- block rendered -->
@@ -108,12 +108,22 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-pre.nenb-block-source {
+.nenb-block-source {
   border: thin solid #bbb;
   border-radius: 0.5em;
-  padding: 0.1em 0.5em;
+  padding: 0.25em 0.5em;
   background-color: #40f1;
   margin: 0.5em 0;
+}
+
+.nenb-block-source pre {
+  margin: 0;
+}
+
+table.nenb-block-source-attrs {
+  margin-top: 0;
+  margin-left: 2em;
+  font-size: 75%;
 }
 
 /* errors */

@@ -33,11 +33,13 @@ named <code>doc</code>.  The block&#39;s source is displayed since the block att
 is set on the block.</p>
 
 <!-- block source -->
-<pre class=nenb-block-source>
+<div class=nenb-block-source>
+<pre>
 <span class="token punctuation">{</span>
   <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">"nenb example - set-title-with-data (updated w/json)"</span>
 <span class="token punctuation">}</span>
 </pre>
+</div>
 
 <!-- block rendered -->
 <script>
@@ -62,10 +64,12 @@ data["doc"] = {
 window title.</p>
 
 <!-- block source -->
-<pre class=nenb-block-source>
+<div class=nenb-block-source>
+<pre>
 <span class="token comment">// set the document title from property set previously</span>
 document<span class="token punctuation">.</span>title <span class="token operator">=</span> data<span class="token punctuation">.</span>doc<span class="token punctuation">.</span>title
 </pre>
+</div>
 
 <!-- block rendered -->
 <script>
@@ -82,9 +86,11 @@ document.title = data.doc.title
 format.</p>
 
 <!-- block source -->
-<pre class=nenb-block-source>
+<div class=nenb-block-source>
+<pre>
 title2 = &quot;nenb example - set-title-with-data (updated w/toml)&quot;
 </pre>
+</div>
 
 <!-- block rendered -->
 <script>
@@ -98,10 +104,12 @@ data["doc2"] = {
 set in the document.</p>
 
 <!-- block source -->
-<pre class=nenb-block-source>
+<div class=nenb-block-source>
+<pre>
 <span class="token comment">// set the document title from property set previously</span>
 document<span class="token punctuation">.</span>title <span class="token operator">=</span> data<span class="token punctuation">.</span>doc2<span class="token punctuation">.</span>title2
 </pre>
+</div>
 
 <!-- block rendered -->
 <script>
@@ -153,12 +161,22 @@ tbody tr:nth-child(odd) {
 }
 
 /* block source */
-pre.nenb-block-source {
+.nenb-block-source {
   border: thin solid #bbb;
   border-radius: 0.5em;
-  padding: 0.1em 0.5em;
+  padding: 0.25em 0.5em;
   background-color: #40f1;
   margin: 0.5em 0;
+}
+
+.nenb-block-source pre {
+  margin: 0;
+}
+
+table.nenb-block-source-attrs {
+  margin-top: 0;
+  margin-left: 2em;
+  font-size: 75%;
 }
 
 /* errors */
