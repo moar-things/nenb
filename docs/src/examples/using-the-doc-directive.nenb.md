@@ -10,7 +10,7 @@ The **`doc`** directive is show below:
 * title nenb example - using the doc directive
 * icon ../images/nenb-icon.png
 * bodyTitle
-* showDirective
+* show
 
 Directives are markdown headers - one `#` character at the start of the line
 followed by a whitespace character.
@@ -37,7 +37,7 @@ beneath the directive line.  Attributes used here:
   This attribute adds a `<h1>` to the beginning of the document, with the title
   specified in the **`title`** attribute.
 
-- **`showDirective`**
+- **`show`**
 
   This attribute will display the source for the directive in the document,
   which is only really useful for nenb documents describing the structure of

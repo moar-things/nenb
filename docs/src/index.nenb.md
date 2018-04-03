@@ -51,7 +51,9 @@ Let's look at some examples.
 * [using the doc directive](examples/using-the-doc-directive.html)
 * [sets the document title with JavaScript and a data block](examples/set-title-with-data.html)
 * [a temperature converter](examples/temperature-converter.html)
-* [using vue](examples/using-vue.html)
+* [using vue-ssr](examples/using-vue-ssr.html)
+* [using the vue package](examples/using-vue-package.html)
+* [a temperature converter using vue](examples/temperature-converter-vue.html)
 
 ## reference
 
