@@ -3,13 +3,13 @@
 * icon images/nenb-icon.png
 
 <div style="float:right; margin-left:1em;">
-  <a href="https://github.com/nenb">
+  <a href="https://github.com/moar-things/nenb">
     <img width=32 src="images/nenb-icon.png">
   </a>
 
   <p></p>
 
-  <a href="https://github.com/nenb">
+  <a href="https://github.com/moar-things/nenb">
     <img width=32 src="images/GitHub-Mark-120px-plus.png">
   </a>
 </div>
@@ -69,7 +69,7 @@ TBD
 
 ## usage from the command-line
 
-    npx nenb/nenb [options] file file ...
+    npx moar-things/nenb [options] file file ...
 
 options:
 
@@ -81,7 +81,7 @@ options:
 
 If you feel you must install it globally, you can run
 
-    npm install -g nenb/nenb
+    npm install -g @moar-things/nenb
 
 which will provide a `nenb` command on your path.  You may need to use `sudo`
 on that command, depending on your machine setup.
@@ -110,5 +110,5 @@ Please read the [CONTRIBUTING.md][] file for more information.
 [Markdown]: https://daringfireball.net/projects/markdown/syntax
 [Markdown headings]: https://daringfireball.net/projects/markdown/syntax#header
 [Markdown fenced code blocks]: https://help.github.com/articles/creating-and-highlighting-code-blocks/#fenced-code-blocks
-[LICENSE.md]: https://github.com/nenb/nenb/blob/master/LICENSE.md
-[CONTRIBUTING.md]: https://github.com/nenb/nenb/blob/master/CONTRIBUTING.md
+[LICENSE.md]: https://github.com/moar-things/nenb/blob/master/LICENSE.md
+[CONTRIBUTING.md]: https://github.com/moar-things/nenb/blob/master/CONTRIBUTING.md

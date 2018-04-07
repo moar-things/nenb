@@ -12,7 +12,7 @@ Markdown in a plain ole editor, and then have that "notebook" compiled to HTML.
 
 For more information visit the [home page][].
 
-[home page]: https://nenb.github.io/nenb/
+[home page]: https://moar-things.github.io/nenb/
 [Mathematica]: https://www.wolfram.com/mathematica/
 [TiddlyWiki]: https://tiddlywiki.com/
 [Jupyter]: http://jupyter.org/

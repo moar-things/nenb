@@ -2,7 +2,7 @@ nenb %%version%% - %%description%%
 
 usage:
 
-    npx nenb/nenb [options] aFile.md bFile.md ...
+    npx @moar-things/nenb [options] aFile.md bFile.md ...
 
 options:
 

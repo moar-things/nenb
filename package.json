@@ -1,20 +1,20 @@
 {
-  "name": "@nenb/nenb",
+  "name": "@moar-things/nenb",
   "version": "0.0.1",
   "description": "Non-Editable Note Book",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
-  "homepage": "https://nenb.github.io/nenb/",
+  "homepage": "https://moar-things.github.io/nenb/",
   "main": "lib/nenb.js",
   "bin": {
     "nenb": "./lib/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nenb/nenb.git"
+    "url": "https://github.com/moar-things/nenb.git"
   },
   "bugs": {
-    "url": "https://github.com/nenb/nenb/issues"
+    "url": "https://github.com/moar-things/nenb/issues"
   },
   "scripts": {
     "build": "make build",
